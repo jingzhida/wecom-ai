@@ -1,4 +1,4 @@
-# 企业微信智能客服解决方案
+# 企业微信智能客服解决方案 需要请加QQ:1837623940
 
 > 基于 Agent 工作流 + 企业微信 API + 本地部署大模型 打造的高效智能客服系统
 
@@ -59,26 +59,12 @@
 
 ### 环境要求
 
-- Python 3.8+
 - 企业微信企业账号
-- 本地大模型环境（支持主流开源模型）
+- 一台安卓手机/平板
 
 ### 安装步骤
 
-```bash
-# 克隆项目
-git clone <repository-url>
-cd qywechat
-
-# 安装依赖
-pip install -r requirements.txt
-
-# 配置企业微信
-cp config.example.yaml config.yaml
-# 编辑 config.yaml 填入您的配置
-
-# 启动服务
-python main.py
+```
 ```
 
 ## 配置说明
@@ -113,5 +99,3 @@ python main.py
 MIT License
 
 ---
-
-**注意**：本项目仅供学习和研究使用，商用请联系作者获取授权。
